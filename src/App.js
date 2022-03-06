@@ -1,6 +1,8 @@
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [color, setColor] = useState('red');
   return (
     <div className="App">
       <header className="App-header">
